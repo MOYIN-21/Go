@@ -10,7 +10,7 @@ func main() {
 	fmt.Scan(&score)
 
 	grade := letterGrade(score)
-	fmt.Print("The student grade is", grade)
+	fmt.Println("The student grade is" + " " +  grade)
 }
 
 func letterGrade(score int) string {
