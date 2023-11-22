@@ -10,10 +10,10 @@ func main() {
 	fmt.Scan(&letter)
 
 	alphabet := character(letter)
-	fmt.Println("The letter you enter is" + " " + alphabet)
+	fmt.Println("letter" + " " + letter + " " + "is a" + " " + alphabet)
 }
 
-func character(letter string) string{
+func character(letter string) string {
 	if letter == "A" || letter == "E" || letter == "I" || letter == "0" || letter == "U" {
 		return "Vowel"
 	}

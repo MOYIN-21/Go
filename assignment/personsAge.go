@@ -10,7 +10,7 @@ func main() {
 	fmt.Scan(&age)
 
 	price := ticketPrice(age)
-	fmt.Println("The student grade is" + " " + price)
+	fmt.Println("The ticket price is" + " " + price)
 }
 
 func ticketPrice(age int) string {
